@@ -1,0 +1,2282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.0.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;BR&gt;Wurth Elektronik - Capacitors - Aluminum Electrolytic Capacitors - WCAP-ASLI&lt;br&gt;&lt;Hr&gt;
+
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither Autodesk nor Würth Elektronik eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2020a, 2020-03-03&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="WCAP-ASLL_16X17(DXL)" urn="urn:adsk.eagle:footprint:18354021/1">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,16X17X6.6(DiameterXLengthXP)</description>
+<smd name="2" x="-6.25" y="0" dx="6.5" dy="3.5" layer="1"/>
+<smd name="1" x="6.25" y="0" dx="6.5" dy="3.5" layer="1"/>
+<wire x1="-8.65" y1="8.65" x2="6.1" y2="8.65" width="0.2" layer="21"/>
+<wire x1="-8.65" y1="-8.65" x2="-8.65" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-8.65" y1="-8.65" x2="6.1" y2="-8.65" width="0.2" layer="21"/>
+<wire x1="-8.65" y1="8.65" x2="-8.65" y2="2.1" width="0.2" layer="21"/>
+<wire x1="6.1" y1="8.65" x2="8.65" y2="6.1" width="0.2" layer="21"/>
+<wire x1="6.1" y1="-8.65" x2="8.65" y2="-6.1" width="0.2" layer="21"/>
+<wire x1="8.65" y1="6.1" x2="8.65" y2="2.1" width="0.2" layer="21"/>
+<wire x1="8.65" y1="-6.1" x2="8.65" y2="-2.1" width="0.2" layer="21"/>
+<wire x1="-8.55" y1="8.55" x2="-8.55" y2="-8.55" width="0.1" layer="51"/>
+<wire x1="-8.55" y1="-8.55" x2="6.05" y2="-8.55" width="0.1" layer="51"/>
+<wire x1="6.05" y1="-8.55" x2="8.55" y2="-6.05" width="0.1" layer="51"/>
+<wire x1="8.55" y1="-6.05" x2="8.55" y2="6.05" width="0.1" layer="51"/>
+<wire x1="8.55" y1="6.05" x2="6.05" y2="8.55" width="0.1" layer="51"/>
+<wire x1="6.05" y1="8.55" x2="-8.55" y2="8.55" width="0.1" layer="51"/>
+<text x="-0.8" y="9.7" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-1.5" y="-10.7" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="9.6" y="-3.5" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="9.6" y="-3.5" size="1.27" layer="51" align="bottom-center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.85" y="1.95"/>
+<vertex x="-9.7" y="1.95"/>
+<vertex x="-9.7" y="-1.95"/>
+<vertex x="-8.85" y="-1.95"/>
+<vertex x="-8.85" y="-8.85"/>
+<vertex x="6.2" y="-8.85"/>
+<vertex x="8.85" y="-6.2"/>
+<vertex x="8.85" y="-1.95"/>
+<vertex x="9.7" y="-1.95"/>
+<vertex x="9.7" y="1.95"/>
+<vertex x="8.85" y="1.95"/>
+<vertex x="8.85" y="6.2"/>
+<vertex x="6.2" y="8.85"/>
+<vertex x="-8.85" y="8.85"/>
+</polygon>
+<circle x="0" y="0" radius="8" width="0.1" layer="21"/>
+</package>
+<package name="WCAP-ASLL_10X10.5(DXL)" urn="urn:adsk.eagle:footprint:18354023/1">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,10X10.5X4.5(DiameterXLengthXP)</description>
+<smd name="2" x="-4.35" y="0" dx="4.4" dy="1.9" layer="1"/>
+<smd name="1" x="4.35" y="0" dx="4.4" dy="1.9" layer="1"/>
+<wire x1="-5.25" y1="5.25" x2="3.2" y2="5.25" width="0.2" layer="21"/>
+<wire x1="-5.25" y1="-5.25" x2="-5.25" y2="-1.25" width="0.2" layer="21"/>
+<wire x1="-5.25" y1="-5.25" x2="3.2" y2="-5.25" width="0.2" layer="21"/>
+<wire x1="-5.25" y1="5.25" x2="-5.25" y2="1.25" width="0.2" layer="21"/>
+<wire x1="3.2" y1="5.25" x2="5.25" y2="3.2" width="0.2" layer="21"/>
+<wire x1="3.2" y1="-5.25" x2="5.25" y2="-3.2" width="0.2" layer="21"/>
+<wire x1="5.25" y1="3.2" x2="5.25" y2="1.25" width="0.2" layer="21"/>
+<wire x1="5.25" y1="-3.2" x2="5.25" y2="-1.25" width="0.2" layer="21"/>
+<wire x1="3.15" y1="5.15" x2="-5.15" y2="5.15" width="0.1" layer="51"/>
+<wire x1="-5.15" y1="5.15" x2="-5.15" y2="-5.15" width="0.1" layer="51"/>
+<wire x1="-5.15" y1="-5.15" x2="3.15" y2="-5.15" width="0.1" layer="51"/>
+<wire x1="3.15" y1="-5.15" x2="5.15" y2="-3.15" width="0.1" layer="51"/>
+<wire x1="5.15" y1="-3.15" x2="5.15" y2="3.15" width="0.1" layer="51"/>
+<wire x1="5.15" y1="3.15" x2="3.15" y2="5.15" width="0.1" layer="51"/>
+<text x="-0.9" y="6.3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-1.1" y="-7.3" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="6.2" y="-2.6" size="1.27" layer="21" align="bottom-center">+</text>
+<circle x="0" y="0" radius="5" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="3.3" y="5.45"/>
+<vertex x="-5.45" y="5.45"/>
+<vertex x="-5.45" y="1.15"/>
+<vertex x="-6.75" y="1.15"/>
+<vertex x="-6.75" y="-1.15"/>
+<vertex x="-5.45" y="-1.15"/>
+<vertex x="-5.45" y="-5.45"/>
+<vertex x="3.25" y="-5.45"/>
+<vertex x="5.45" y="-3.25"/>
+<vertex x="5.45" y="-1.15"/>
+<vertex x="6.75" y="-1.15"/>
+<vertex x="6.75" y="1.15"/>
+<vertex x="5.45" y="1.15"/>
+<vertex x="5.45" y="3.3"/>
+</polygon>
+</package>
+<package name="WCAP-ASLL_6.3X5.5(DXL)" urn="urn:adsk.eagle:footprint:18354026/1">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,6.3X5.5X2.1(DiameterXLengthXP)</description>
+<smd name="2" x="-2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<smd name="1" x="2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<wire x1="-3.4" y1="3.4" x2="1.8" y2="3.4" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="-3.4" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="1.8" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="3.4" x2="-3.4" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.8" y1="3.4" x2="3.4" y2="1.8" width="0.2" layer="21"/>
+<wire x1="1.8" y1="-3.4" x2="3.4" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="3.4" y1="1.8" x2="3.4" y2="1.1" width="0.2" layer="21"/>
+<wire x1="3.4" y1="-1.8" x2="3.4" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="3.3" x2="-3.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-3.3" x2="1.75" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-3.3" x2="3.3" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-1.75" x2="3.3" y2="1.75" width="0.1" layer="51"/>
+<wire x1="3.3" y1="1.75" x2="1.75" y2="3.3" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.3" x2="-3.3" y2="3.3" width="0.1" layer="51"/>
+<text x="-0.6" y="4.2" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-1.2" y="-4.9" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="4.3" y="-2.4" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="4.3" y="-2.4" size="1.27" layer="48" align="bottom-center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="1.9" y="3.6"/>
+<vertex x="-3.6" y="3.6"/>
+<vertex x="-3.6" y="1"/>
+<vertex x="-4.75" y="1"/>
+<vertex x="-4.75" y="-1"/>
+<vertex x="-3.6" y="-1"/>
+<vertex x="-3.6" y="-3.6"/>
+<vertex x="1.85" y="-3.6"/>
+<vertex x="3.6" y="-1.85"/>
+<vertex x="3.6" y="-1"/>
+<vertex x="4.75" y="-1"/>
+<vertex x="4.75" y="1"/>
+<vertex x="3.6" y="1"/>
+<vertex x="3.6" y="1.9"/>
+</polygon>
+<circle x="0" y="0" radius="3.15" width="0.1" layer="51"/>
+</package>
+<package name="WCAP-ASLL_6.3X7.7(DXL)" urn="urn:adsk.eagle:footprint:18354025/1">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,6.3X7.7X2.1(DiameterXLengthXP)</description>
+<smd name="2" x="-2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<smd name="1" x="2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<wire x1="-3.4" y1="3.4" x2="1.8" y2="3.4" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="-3.4" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="-3.4" x2="1.8" y2="-3.4" width="0.2" layer="21"/>
+<wire x1="-3.4" y1="3.4" x2="-3.4" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.8" y1="3.4" x2="3.4" y2="1.8" width="0.2" layer="21"/>
+<wire x1="1.8" y1="-3.4" x2="3.4" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="3.4" y1="1.8" x2="3.4" y2="1.1" width="0.2" layer="21"/>
+<wire x1="3.4" y1="-1.8" x2="3.4" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="3.3" x2="-3.3" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-3.3" x2="1.75" y2="-3.3" width="0.1" layer="51"/>
+<wire x1="1.75" y1="-3.3" x2="3.3" y2="-1.75" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-1.75" x2="3.3" y2="1.75" width="0.1" layer="51"/>
+<wire x1="3.3" y1="1.75" x2="1.75" y2="3.3" width="0.1" layer="51"/>
+<wire x1="1.75" y1="3.3" x2="-3.3" y2="3.3" width="0.1" layer="51"/>
+<text x="-0.6" y="4.2" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-1.2" y="-4.9" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="4.3" y="-2.4" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="4.3" y="-2.4" size="1.27" layer="48" align="bottom-center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="1.9" y="3.6"/>
+<vertex x="-3.6" y="3.6"/>
+<vertex x="-3.6" y="1"/>
+<vertex x="-4.75" y="1"/>
+<vertex x="-4.75" y="-1"/>
+<vertex x="-3.6" y="-1"/>
+<vertex x="-3.6" y="-3.6"/>
+<vertex x="1.85" y="-3.6"/>
+<vertex x="3.6" y="-1.85"/>
+<vertex x="3.6" y="-1"/>
+<vertex x="4.75" y="-1"/>
+<vertex x="4.75" y="1"/>
+<vertex x="3.6" y="1"/>
+<vertex x="3.6" y="1.9"/>
+</polygon>
+<circle x="0" y="0" radius="3.15" width="0.1" layer="51"/>
+</package>
+<package name="WCAP-ASLL_4X5.5(DXL)" urn="urn:adsk.eagle:footprint:18354028/1">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,4X5.5X1(DiameterXLengthXPitch)</description>
+<smd name="2" x="-1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
+<smd name="1" x="1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
+<wire x1="-2.25" y1="2.25" x2="1.4" y2="2.25" width="0.2" layer="21"/>
+<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.25" y1="-2.25" x2="1.4" y2="-2.25" width="0.2" layer="21"/>
+<wire x1="-2.25" y1="2.25" x2="-2.25" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.4" y1="2.25" x2="2.25" y2="1.4" width="0.2" layer="21"/>
+<wire x1="1.4" y1="-2.25" x2="2.25" y2="-1.4" width="0.2" layer="21"/>
+<wire x1="2.25" y1="1.4" x2="2.25" y2="1.1" width="0.2" layer="21"/>
+<wire x1="2.25" y1="-1.4" x2="2.25" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.15" y1="2.15" x2="-2.15" y2="-2.15" width="0.1" layer="51"/>
+<wire x1="-2.15" y1="-2.15" x2="1.35" y2="-2.15" width="0.1" layer="51"/>
+<wire x1="1.35" y1="-2.15" x2="2.15" y2="-1.35" width="0.1" layer="51"/>
+<wire x1="2.15" y1="-1.35" x2="2.15" y2="1.35" width="0.1" layer="51"/>
+<wire x1="2.15" y1="1.35" x2="1.35" y2="2.15" width="0.1" layer="51"/>
+<wire x1="1.35" y1="2.15" x2="-2.15" y2="2.15" width="0.1" layer="51"/>
+<text x="-0.3" y="3.1" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.5" y="-3.9" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="2.9" y="-2.1" size="1.016" layer="21" align="bottom-center">+</text>
+<text x="2.9" y="-2.1" size="1.016" layer="48" align="bottom-center">+</text>
+<circle x="0" y="0" radius="2" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.45" y="2.45"/>
+<vertex x="-2.45" y="1"/>
+<vertex x="-3.3" y="1"/>
+<vertex x="-3.3" y="-1"/>
+<vertex x="-2.45" y="-1"/>
+<vertex x="-2.45" y="-2.45"/>
+<vertex x="1.45" y="-2.45"/>
+<vertex x="2.45" y="-1.45"/>
+<vertex x="2.45" y="-1"/>
+<vertex x="3.3" y="-1"/>
+<vertex x="3.3" y="1"/>
+<vertex x="2.45" y="1"/>
+<vertex x="2.45" y="1.5"/>
+<vertex x="1.5" y="2.45"/>
+</polygon>
+</package>
+<package name="WCAP-ASLL_5X5.5(DXL)" urn="urn:adsk.eagle:footprint:18354027/1">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,5X5.5X1.4(DiameterXLengthXP)</description>
+<smd name="2" x="-2.2" y="0" dx="3" dy="1.6" layer="1"/>
+<smd name="1" x="2.2" y="0" dx="3" dy="1.6" layer="1"/>
+<wire x1="-2.75" y1="2.75" x2="1.7" y2="2.75" width="0.2" layer="21"/>
+<wire x1="-2.75" y1="-2.75" x2="-2.75" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.75" y1="-2.75" x2="1.7" y2="-2.75" width="0.2" layer="21"/>
+<wire x1="-2.75" y1="2.75" x2="-2.75" y2="1.1" width="0.2" layer="21"/>
+<wire x1="1.7" y1="2.75" x2="2.75" y2="1.7" width="0.2" layer="21"/>
+<wire x1="1.7" y1="-2.75" x2="2.75" y2="-1.7" width="0.2" layer="21"/>
+<wire x1="2.75" y1="1.7" x2="2.75" y2="1.1" width="0.2" layer="21"/>
+<wire x1="2.75" y1="-1.7" x2="2.75" y2="-1.1" width="0.2" layer="21"/>
+<wire x1="-2.65" y1="2.65" x2="-2.65" y2="-2.65" width="0.1" layer="51"/>
+<wire x1="-2.65" y1="-2.65" x2="1.65" y2="-2.65" width="0.1" layer="51"/>
+<wire x1="1.65" y1="-2.65" x2="2.65" y2="-1.65" width="0.1" layer="51"/>
+<wire x1="2.65" y1="-1.65" x2="2.65" y2="1.65" width="0.1" layer="51"/>
+<wire x1="2.65" y1="1.65" x2="1.65" y2="2.65" width="0.1" layer="51"/>
+<wire x1="1.65" y1="2.65" x2="-2.65" y2="2.65" width="0.1" layer="51"/>
+<text x="-0.3" y="3.6" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.5" y="-4" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="3.5" y="-2.1" size="1.016" layer="21" align="bottom-center">+</text>
+<text x="3.5" y="-2.1" size="1.016" layer="48" align="bottom-center">+</text>
+<circle x="0" y="0" radius="2.5" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="-2.95" y="2.95"/>
+<vertex x="-2.95" y="1"/>
+<vertex x="-3.9" y="1"/>
+<vertex x="-3.9" y="-1"/>
+<vertex x="-2.95" y="-1"/>
+<vertex x="-2.95" y="-2.95"/>
+<vertex x="1.75" y="-2.95"/>
+<vertex x="2.95" y="-1.75"/>
+<vertex x="2.95" y="-1"/>
+<vertex x="3.9" y="-1"/>
+<vertex x="3.9" y="1"/>
+<vertex x="2.95" y="1"/>
+<vertex x="2.95" y="1.8"/>
+<vertex x="1.8" y="2.95"/>
+</polygon>
+</package>
+<package name="WCAP-ASLL_8X10.5(DXL)" urn="urn:adsk.eagle:footprint:18354024/1">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,8X10.5X3.1(DiameterXLengthXP)</description>
+<smd name="2" x="-3.5" y="0" dx="4.2" dy="1.9" layer="1"/>
+<smd name="1" x="3.5" y="0" dx="4.2" dy="1.9" layer="1"/>
+<wire x1="-4.25" y1="4.25" x2="2.4" y2="4.25" width="0.2" layer="21"/>
+<wire x1="-4.25" y1="-4.25" x2="-4.25" y2="-1.25" width="0.2" layer="21"/>
+<wire x1="-4.25" y1="-4.25" x2="2.4" y2="-4.25" width="0.2" layer="21"/>
+<wire x1="-4.25" y1="4.25" x2="-4.25" y2="1.25" width="0.2" layer="21"/>
+<wire x1="2.4" y1="4.25" x2="4.25" y2="2.4" width="0.2" layer="21"/>
+<wire x1="2.4" y1="-4.25" x2="4.25" y2="-2.4" width="0.2" layer="21"/>
+<wire x1="4.25" y1="2.4" x2="4.25" y2="1.25" width="0.2" layer="21"/>
+<wire x1="4.25" y1="-2.4" x2="4.25" y2="-1.25" width="0.2" layer="21"/>
+<wire x1="-4.15" y1="4.15" x2="-4.15" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="-4.15" y1="-4.15" x2="2.35" y2="-4.15" width="0.1" layer="51"/>
+<wire x1="2.35" y1="-4.15" x2="4.15" y2="-2.35" width="0.1" layer="51"/>
+<wire x1="4.15" y1="-2.35" x2="4.15" y2="2.35" width="0.1" layer="51"/>
+<wire x1="4.15" y1="2.35" x2="2.35" y2="4.15" width="0.1" layer="51"/>
+<wire x1="2.35" y1="4.15" x2="-4.15" y2="4.15" width="0.1" layer="51"/>
+<text x="-0.93" y="5.13" size="1.016" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-1" y="-6.03" size="1.016" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="5.3" y="-2.5" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="5.3" y="-2.5" size="1.27" layer="48" align="bottom-center">+</text>
+<polygon width="0.1" layer="39">
+<vertex x="-4.45" y="4.45"/>
+<vertex x="-4.45" y="1.15"/>
+<vertex x="-5.8" y="1.15"/>
+<vertex x="-5.8" y="-1.15"/>
+<vertex x="-4.45" y="-1.15"/>
+<vertex x="-4.45" y="-4.45"/>
+<vertex x="2.45" y="-4.45"/>
+<vertex x="4.45" y="-2.45"/>
+<vertex x="4.45" y="-1.15"/>
+<vertex x="5.8" y="-1.15"/>
+<vertex x="5.8" y="1.15"/>
+<vertex x="4.45" y="1.15"/>
+<vertex x="4.45" y="2.5"/>
+<vertex x="2.5" y="4.45"/>
+</polygon>
+<circle x="0" y="0" radius="4" width="0.1" layer="51"/>
+</package>
+<package name="WCAP-ASLL_12.5X14(DXL)" urn="urn:adsk.eagle:footprint:18354022/1">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,12.5X14X4.5(DiameterXLengthXP)</description>
+<smd name="2" x="-5.05" y="0" dx="5.8" dy="2.5" layer="1"/>
+<smd name="1" x="5.05" y="0" dx="5.8" dy="2.5" layer="1"/>
+<wire x1="-6.85" y1="6.85" x2="4.05" y2="6.85" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="-6.85" x2="-6.85" y2="-1.55" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="-6.85" x2="4.05" y2="-6.85" width="0.2" layer="21"/>
+<wire x1="-6.85" y1="6.85" x2="-6.85" y2="1.55" width="0.2" layer="21"/>
+<wire x1="4.05" y1="6.85" x2="6.85" y2="4.05" width="0.2" layer="21"/>
+<wire x1="4.05" y1="-6.85" x2="6.85" y2="-4.05" width="0.2" layer="21"/>
+<wire x1="6.85" y1="4.05" x2="6.85" y2="1.55" width="0.2" layer="21"/>
+<wire x1="6.85" y1="-4.05" x2="6.85" y2="-1.55" width="0.2" layer="21"/>
+<wire x1="-6.75" y1="6.75" x2="-6.75" y2="-6.75" width="0.1" layer="51"/>
+<wire x1="-6.75" y1="-6.75" x2="4" y2="-6.75" width="0.1" layer="51"/>
+<wire x1="4" y1="-6.75" x2="6.75" y2="-4" width="0.1" layer="51"/>
+<wire x1="6.75" y1="-4" x2="6.75" y2="4" width="0.1" layer="51"/>
+<wire x1="6.75" y1="4" x2="4" y2="6.75" width="0.1" layer="51"/>
+<wire x1="4" y1="6.75" x2="-6.75" y2="6.75" width="0.1" layer="51"/>
+<text x="-1" y="7.8" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-0.7" y="-8.9" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="7.7" y="-3" size="1.27" layer="21" align="bottom-center">+</text>
+<text x="7.7" y="-3" size="1.27" layer="48" align="bottom-center">+</text>
+<circle x="0" y="0" radius="6.25" width="0.1" layer="51"/>
+<polygon width="0.1" layer="39">
+<vertex x="4.15" y="7.05"/>
+<vertex x="-7.05" y="7.05"/>
+<vertex x="-7.05" y="1.45"/>
+<vertex x="-8.15" y="1.45"/>
+<vertex x="-8.15" y="-1.45"/>
+<vertex x="-7.05" y="-1.45"/>
+<vertex x="-7.05" y="-7.05"/>
+<vertex x="4.2" y="-7.05"/>
+<vertex x="7.05" y="-4.1"/>
+<vertex x="7.05" y="-1.45"/>
+<vertex x="8.15" y="-1.45"/>
+<vertex x="8.15" y="1.45"/>
+<vertex x="7.05" y="1.45"/>
+<vertex x="7.05" y="4.15"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="WCAP-ASLL_16X17(DXL)" urn="urn:adsk.eagle:package:18354030/2" type="model">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,16X17X6.6(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-ASLL_16X17(DXL)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-ASLL_10X10.5(DXL)" urn="urn:adsk.eagle:package:18354032/2" type="model">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,10X10.5X4.5(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-ASLL_10X10.5(DXL)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-ASLL_6.3X7.7(DXL)" urn="urn:adsk.eagle:package:18354034/2" type="model">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,6.3X7.7X2.1(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-ASLL_6.3X7.7(DXL)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-ASLL_6.3X5.5(DXL)" urn="urn:adsk.eagle:package:18354035/2" type="model">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,6.3X5.5X2.1(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-ASLL_6.3X5.5(DXL)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-ASLL_8X10.5(DXL)" urn="urn:adsk.eagle:package:18354033/2" type="model">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,8X10.5X3.1(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-ASLL_8X10.5(DXL)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-ASLL_4X5.5(DXL)" urn="urn:adsk.eagle:package:18354037/2" type="model">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,4X5.5X1(DiameterXLengthXPitch)</description>
+<packageinstances>
+<packageinstance name="WCAP-ASLL_4X5.5(DXL)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-ASLL_5X5.5(DXL)" urn="urn:adsk.eagle:package:18354036/2" type="model">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,5X5.5X1.4(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-ASLL_5X5.5(DXL)"/>
+</packageinstances>
+</package3d>
+<package3d name="WCAP-ASLL_12.5X14(DXL)" urn="urn:adsk.eagle:package:18354031/2" type="model">
+<description>&lt;B&gt;WCAP-ASLL&lt;/B&gt;&lt;BR&gt; Aluminium Electrolytic Capacitors,12.5X14X4.5(DiameterXLengthXP)</description>
+<packageinstances>
+<packageinstance name="WCAP-ASLL_12.5X14(DXL)"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="C_POLAR">
+<description>C_POLARIZED</description>
+<pin name="+" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="-" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<text x="1.175" y="3.38" size="1.4224" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0.915" y="-5.075" size="1.4224" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="2.54" y="-1.905" size="1.4224" layer="94">+</text>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.905" x2="0.635" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.64261875" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.927859375" y1="0" x2="2.57048125" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WCAP-ASLL_16X17" prefix="C">
+<description>&lt;b&gt;WCAP-ASLL Aluminium Electrolytic Capacitors  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Low Impedance &amp; Long Life +105 °C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low impedance and long life product series 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 1 µF ‒ 6800 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 450 V(DC) 
+&lt;BR&gt;Operating temperature: 
+&lt;BR&gt;-55 °C up to +105 °C for UR ≤ 100 V(DC) 
+&lt;BR&gt;-40 °C up to +105 °C for UR &gt; 100 V(DC) 
+&lt;BR&gt;Endurance: 2000 ‒ 5000 h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 16.0 x 17.0 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Long life application &amp; low impedance 
+&lt;BR&gt;Input and output capacitor for switched-mode power supply 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;e.g. DC/DC converter, AC/DC converter, satellite receiver, control panel 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLL/"&gt;https://www.we-online.com/catalog/en/WCAP-ASLL/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-03
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-ASLL_16X17(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18354030/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_865060163013">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060163013.pdf" constant="no"/>
+<attribute name="DF" value="22%" constant="no"/>
+<attribute name="DIAMETER" value="16mm" constant="no"/>
+<attribute name="I-LEAK" value="428.4uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1800mA" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060163013 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEK170682M6R3DVCTHE000" constant="no"/>
+<attribute name="VALUE" value="6800  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+<attribute name="Z" value="0.035Ohm" constant="no"/>
+</technology>
+<technology name="_865060263012">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060263012.pdf" constant="no"/>
+<attribute name="DF" value="19%" constant="no"/>
+<attribute name="DIAMETER" value="16mm" constant="no"/>
+<attribute name="I-LEAK" value="470uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1800mA" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060263012 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEK170472M010DVCTHE000" constant="no"/>
+<attribute name="VALUE" value="4700  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+<attribute name="Z" value="0.035Ohm" constant="no"/>
+</technology>
+<technology name="_865060363012">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060363012.pdf" constant="no"/>
+<attribute name="DF" value="16%" constant="no"/>
+<attribute name="DIAMETER" value="16mm" constant="no"/>
+<attribute name="I-LEAK" value="528uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1800mA" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060363012 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEK170332M016DVCTHE000" constant="no"/>
+<attribute name="VALUE" value="3300  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+<attribute name="Z" value="0.035Ohm" constant="no"/>
+</technology>
+<technology name="_865060463011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060463011.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="16mm" constant="no"/>
+<attribute name="I-LEAK" value="550uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1800mA" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060463011 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEK170222M025DVCTHE000" constant="no"/>
+<attribute name="VALUE" value="2200  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+<attribute name="Z" value="0.035Ohm" constant="no"/>
+</technology>
+<technology name="_865060563011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060563011.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="16mm" constant="no"/>
+<attribute name="I-LEAK" value="350uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1800mA" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060563011 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEK170102M035DVCTHE000" constant="no"/>
+<attribute name="VALUE" value="1000  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+<attribute name="Z" value="0.066Ohm" constant="no"/>
+</technology>
+<technology name="_865060563012">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060563012.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="16mm" constant="no"/>
+<attribute name="I-LEAK" value="525uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1800mA" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060563012 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEK170152M035DVCTHE000" constant="no"/>
+<attribute name="VALUE" value="1500  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+<attribute name="Z" value="0.066Ohm" constant="no"/>
+</technology>
+<technology name="_865060663013">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060663013.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="16mm" constant="no"/>
+<attribute name="I-LEAK" value="235uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1610mA" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060663013 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEK170471M050DVCTHE000" constant="no"/>
+<attribute name="VALUE" value="470  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="0.073Ohm" constant="no"/>
+</technology>
+<technology name="_865060663014">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060663014.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="16mm" constant="no"/>
+<attribute name="I-LEAK" value="340uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1610mA" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060663014 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEK170681M050DVCTHE000" constant="no"/>
+<attribute name="VALUE" value="680  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="0.073Ohm" constant="no"/>
+</technology>
+<technology name="_865060663015">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060663015.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="16mm" constant="no"/>
+<attribute name="I-LEAK" value="500uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1610mA" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060663015 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEK170102M050DVCTHE000" constant="no"/>
+<attribute name="VALUE" value="1000  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="0.073Ohm" constant="no"/>
+</technology>
+<technology name="_865060763010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060763010.pdf" constant="no"/>
+<attribute name="DF" value="10%" constant="no"/>
+<attribute name="DIAMETER" value="16mm" constant="no"/>
+<attribute name="I-LEAK" value="296.1uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1410mA" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060763010 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEK170471M063DVCTHE000" constant="no"/>
+<attribute name="VALUE" value="470  µF " constant="no"/>
+<attribute name="VR" value="63V(DC)" constant="no"/>
+<attribute name="Z" value="0.082Ohm" constant="no"/>
+</technology>
+<technology name="_865061463005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865061463005.pdf" constant="no"/>
+<attribute name="DF" value="20%" constant="no"/>
+<attribute name="DIAMETER" value="16mm" constant="no"/>
+<attribute name="I-LEAK" value="167.5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="100mA" constant="no"/>
+<attribute name="L" value="17mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865061463005 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASDK170150M450DVCTHE000" constant="no"/>
+<attribute name="VALUE" value="15  µF " constant="no"/>
+<attribute name="VR" value="450V(DC)" constant="no"/>
+<attribute name="Z" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-ASLL_10X10.5" prefix="C">
+<description>&lt;b&gt;WCAP-ASLL Aluminium Electrolytic Capacitors  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Low Impedance &amp; Long Life +105 °C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low impedance and long life product series 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 1 µF ‒ 6800 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 450 V(DC) 
+&lt;BR&gt;Operating temperature: 
+&lt;BR&gt;-55 °C up to +105 °C for UR ≤ 100 V(DC) 
+&lt;BR&gt;-40 °C up to +105 °C for UR &gt; 100 V(DC) 
+&lt;BR&gt;Endurance: 2000 ‒ 5000 h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 16.0 x 17.0 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Long life application &amp; low impedance 
+&lt;BR&gt;Input and output capacitor for switched-mode power supply 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;e.g. DC/DC converter, AC/DC converter, satellite receiver, control panel 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLL/"&gt;https://www.we-online.com/catalog/en/WCAP-ASLL/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-03
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-ASLL_10X10.5(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18354032/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_865060157011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060157011.pdf" constant="no"/>
+<attribute name="DF" value="22%" constant="no"/>
+<attribute name="DIAMETER" value="10mm" constant="no"/>
+<attribute name="I-LEAK" value="94.5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="690mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060157011 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEF105152M6R3DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="1500  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+<attribute name="Z" value="0.09Ohm" constant="no"/>
+</technology>
+<technology name="_865060257009">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060257009.pdf" constant="no"/>
+<attribute name="DF" value="19%" constant="no"/>
+<attribute name="DIAMETER" value="10mm" constant="no"/>
+<attribute name="I-LEAK" value="68uA" constant="no"/>
+<attribute name="I-RIPPLE" value="690mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060257009 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEF105681M010DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="680  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+<attribute name="Z" value="0.09Ohm" constant="no"/>
+</technology>
+<technology name="_865060257010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060257010.pdf" constant="no"/>
+<attribute name="DF" value="19%" constant="no"/>
+<attribute name="DIAMETER" value="10mm" constant="no"/>
+<attribute name="I-LEAK" value="100uA" constant="no"/>
+<attribute name="I-RIPPLE" value="690mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060257010 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEF105102M010DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="1000  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+<attribute name="Z" value="0.09Ohm" constant="no"/>
+</technology>
+<technology name="_865060357010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060357010.pdf" constant="no"/>
+<attribute name="DF" value="16%" constant="no"/>
+<attribute name="DIAMETER" value="10mm" constant="no"/>
+<attribute name="I-LEAK" value="108.8uA" constant="no"/>
+<attribute name="I-RIPPLE" value="750mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060357010 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEF105681M016DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="680  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+<attribute name="Z" value="0.09Ohm" constant="no"/>
+</technology>
+<technology name="_865060457009">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060457009.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="10mm" constant="no"/>
+<attribute name="I-LEAK" value="117.5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="670mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060457009 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEF105471M025DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="470  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+<attribute name="Z" value="0.09Ohm" constant="no"/>
+</technology>
+<technology name="_865060557008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060557008.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="10mm" constant="no"/>
+<attribute name="I-LEAK" value="77uA" constant="no"/>
+<attribute name="I-RIPPLE" value="670mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060557008 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEF105221M035DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="220  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+<attribute name="Z" value="0.09Ohm" constant="no"/>
+</technology>
+<technology name="_865060657011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060657011.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="10mm" constant="no"/>
+<attribute name="I-LEAK" value="75uA" constant="no"/>
+<attribute name="I-RIPPLE" value="555mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060657011 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEF105151M050DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="150  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="0.25Ohm" constant="no"/>
+</technology>
+<technology name="_865060657012">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060657012.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="10mm" constant="no"/>
+<attribute name="I-LEAK" value="110uA" constant="no"/>
+<attribute name="I-RIPPLE" value="600mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060657012 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEF105221M050DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="220  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="0.23Ohm" constant="no"/>
+</technology>
+<technology name="_865060757006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060757006.pdf" constant="no"/>
+<attribute name="DF" value="10%" constant="no"/>
+<attribute name="DIAMETER" value="10mm" constant="no"/>
+<attribute name="I-LEAK" value="42.84uA" constant="no"/>
+<attribute name="I-RIPPLE" value="400mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060757006 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEF105680M063DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="68  µF " constant="no"/>
+<attribute name="VR" value="63V(DC)" constant="no"/>
+<attribute name="Z" value="0.38Ohm" constant="no"/>
+</technology>
+<technology name="_865060757007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060757007.pdf" constant="no"/>
+<attribute name="DF" value="10%" constant="no"/>
+<attribute name="DIAMETER" value="10mm" constant="no"/>
+<attribute name="I-LEAK" value="63uA" constant="no"/>
+<attribute name="I-RIPPLE" value="420mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060757007 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEF105101M063DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="100  µF " constant="no"/>
+<attribute name="VR" value="63V(DC)" constant="no"/>
+<attribute name="Z" value="0.24Ohm" constant="no"/>
+</technology>
+<technology name="_865060857004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060857004.pdf" constant="no"/>
+<attribute name="DF" value="8%" constant="no"/>
+<attribute name="DIAMETER" value="10mm" constant="no"/>
+<attribute name="I-LEAK" value="33uA" constant="no"/>
+<attribute name="I-RIPPLE" value="200mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060857004 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEF105330M100DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="33  µF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+<attribute name="Z" value="1.25Ohm" constant="no"/>
+</technology>
+<technology name="_865060857005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060857005.pdf" constant="no"/>
+<attribute name="DF" value="8%" constant="no"/>
+<attribute name="DIAMETER" value="10mm" constant="no"/>
+<attribute name="I-LEAK" value="47uA" constant="no"/>
+<attribute name="I-RIPPLE" value="390mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060857005 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEF105470M100DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="47  µF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+<attribute name="Z" value="0.95Ohm" constant="no"/>
+</technology>
+<technology name="_865061457001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865061457001.pdf" constant="no"/>
+<attribute name="DF" value="20%" constant="no"/>
+<attribute name="DIAMETER" value="10mm" constant="no"/>
+<attribute name="I-LEAK" value="114.85uA" constant="no"/>
+<attribute name="I-RIPPLE" value="40mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865061457001 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASDF1053R3M450DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="3.3  µF " constant="no"/>
+<attribute name="VR" value="450V(DC)" constant="no"/>
+<attribute name="Z" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-ASLL_6.3X7.7" prefix="C">
+<description>&lt;b&gt;WCAP-ASLL Aluminium Electrolytic Capacitors  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Low Impedance &amp; Long Life +105 °C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low impedance and long life product series 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 1 µF ‒ 6800 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 450 V(DC) 
+&lt;BR&gt;Operating temperature: 
+&lt;BR&gt;-55 °C up to +105 °C for UR ≤ 100 V(DC) 
+&lt;BR&gt;-40 °C up to +105 °C for UR &gt; 100 V(DC) 
+&lt;BR&gt;Endurance: 2000 ‒ 5000 h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 16.0 x 17.0 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Long life application &amp; low impedance 
+&lt;BR&gt;Input and output capacitor for switched-mode power supply 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;e.g. DC/DC converter, AC/DC converter, satellite receiver, control panel 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLL/"&gt;https://www.we-online.com/catalog/en/WCAP-ASLL/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-03
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-ASLL_6.3X7.7(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18354034/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_865060145006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060145006.pdf" constant="no"/>
+<attribute name="DF" value="22%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="13.86uA" constant="no"/>
+<attribute name="I-RIPPLE" value="280mA" constant="no"/>
+<attribute name="L" value="7.7mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060145006 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED077221M6R3DVCTCB000" constant="no"/>
+<attribute name="VALUE" value="220  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+<attribute name="Z" value="0.36Ohm" constant="no"/>
+</technology>
+<technology name="_865060245006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060245006.pdf" constant="no"/>
+<attribute name="DF" value="19%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="22uA" constant="no"/>
+<attribute name="I-RIPPLE" value="300mA" constant="no"/>
+<attribute name="L" value="7.7mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060245006 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED077221M010DVCTCB000" constant="no"/>
+<attribute name="VALUE" value="220  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+<attribute name="Z" value="0.36Ohm" constant="no"/>
+</technology>
+<technology name="_865060345006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060345006.pdf" constant="no"/>
+<attribute name="DF" value="16%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="24uA" constant="no"/>
+<attribute name="I-RIPPLE" value="280mA" constant="no"/>
+<attribute name="L" value="7.7mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060345006 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED077151M016DVCTCB000" constant="no"/>
+<attribute name="VALUE" value="150  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+<attribute name="Z" value="0.36Ohm" constant="no"/>
+</technology>
+<technology name="_865060345007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060345007.pdf" constant="no"/>
+<attribute name="DF" value="16%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="35.2uA" constant="no"/>
+<attribute name="I-RIPPLE" value="280mA" constant="no"/>
+<attribute name="L" value="7.7mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060345007 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED077221M016DVCTCB000" constant="no"/>
+<attribute name="VALUE" value="220  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+<attribute name="Z" value="0.36Ohm" constant="no"/>
+</technology>
+<technology name="_865060445005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060445005.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="25uA" constant="no"/>
+<attribute name="I-RIPPLE" value="300mA" constant="no"/>
+<attribute name="L" value="7.7mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060445005 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED077101M025DVCTCB000" constant="no"/>
+<attribute name="VALUE" value="100  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+<attribute name="Z" value="0.36Ohm" constant="no"/>
+</technology>
+<technology name="_865060645007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060645007.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="16.5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="185mA" constant="no"/>
+<attribute name="L" value="7.7mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060645007 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED077330M050DVCTCB000" constant="no"/>
+<attribute name="VALUE" value="33  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="0.68Ohm" constant="no"/>
+</technology>
+<technology name="_865060645008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060645008.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="23.5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="185mA" constant="no"/>
+<attribute name="L" value="7.7mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060645008 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED077470M050DVCTCB000" constant="no"/>
+<attribute name="VALUE" value="47  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="0.68Ohm" constant="no"/>
+</technology>
+<technology name="_865060745003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060745003.pdf" constant="no"/>
+<attribute name="DF" value="10%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="13.86uA" constant="no"/>
+<attribute name="I-RIPPLE" value="120mA" constant="no"/>
+<attribute name="L" value="7.7mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060745003 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED077220M063DVCTCB000" constant="no"/>
+<attribute name="VALUE" value="22  µF " constant="no"/>
+<attribute name="VR" value="63V(DC)" constant="no"/>
+<attribute name="Z" value="1Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-ASLL_6.3X5.5" prefix="C">
+<description>&lt;b&gt;WCAP-ASLL Aluminium Electrolytic Capacitors  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Low Impedance &amp; Long Life +105 °C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low impedance and long life product series 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 1 µF ‒ 6800 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 450 V(DC) 
+&lt;BR&gt;Operating temperature: 
+&lt;BR&gt;-55 °C up to +105 °C for UR ≤ 100 V(DC) 
+&lt;BR&gt;-40 °C up to +105 °C for UR &gt; 100 V(DC) 
+&lt;BR&gt;Endurance: 2000 ‒ 5000 h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 16.0 x 17.0 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Long life application &amp; low impedance 
+&lt;BR&gt;Input and output capacitor for switched-mode power supply 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;e.g. DC/DC converter, AC/DC converter, satellite receiver, control panel 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLL/"&gt;https://www.we-online.com/catalog/en/WCAP-ASLL/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-03
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-ASLL_6.3X5.5(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18354035/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_865060143004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060143004.pdf" constant="no"/>
+<attribute name="DF" value="22%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="6.3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="240mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060143004 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055101M6R3DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="100  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+<attribute name="Z" value="0.44Ohm" constant="no"/>
+</technology>
+<technology name="_865060143005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060143005.pdf" constant="no"/>
+<attribute name="DF" value="22%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="9.45uA" constant="no"/>
+<attribute name="I-RIPPLE" value="240mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060143005 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055151M6R3DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="150  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+<attribute name="Z" value="0.44Ohm" constant="no"/>
+</technology>
+<technology name="_865060243003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060243003.pdf" constant="no"/>
+<attribute name="DF" value="19%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="4.7uA" constant="no"/>
+<attribute name="I-RIPPLE" value="230mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060243003 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055470M010DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="47  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+<attribute name="Z" value="0.44Ohm" constant="no"/>
+</technology>
+<technology name="_865060243004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060243004.pdf" constant="no"/>
+<attribute name="DF" value="19%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="10uA" constant="no"/>
+<attribute name="I-RIPPLE" value="240mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060243004 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055101M010DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="100  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+<attribute name="Z" value="0.44Ohm" constant="no"/>
+</technology>
+<technology name="_865060243005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060243005.pdf" constant="no"/>
+<attribute name="DF" value="19%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="15uA" constant="no"/>
+<attribute name="I-RIPPLE" value="250mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060243005 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055151M010DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="150  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+<attribute name="Z" value="0.44Ohm" constant="no"/>
+</technology>
+<technology name="_865060343003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060343003.pdf" constant="no"/>
+<attribute name="DF" value="16%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="5.28uA" constant="no"/>
+<attribute name="I-RIPPLE" value="230mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060343003 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055330M016DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="33  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+<attribute name="Z" value="0.44Ohm" constant="no"/>
+</technology>
+<technology name="_865060343004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060343004.pdf" constant="no"/>
+<attribute name="DF" value="16%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="7.52uA" constant="no"/>
+<attribute name="I-RIPPLE" value="230mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060343004 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055470M016DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="47  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+<attribute name="Z" value="0.44Ohm" constant="no"/>
+</technology>
+<technology name="_865060343005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060343005.pdf" constant="no"/>
+<attribute name="DF" value="16%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="16uA" constant="no"/>
+<attribute name="I-RIPPLE" value="255mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060343005 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055101M016DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="100  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+<attribute name="Z" value="0.44Ohm" constant="no"/>
+</technology>
+<technology name="_865060443003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060443003.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="8.25uA" constant="no"/>
+<attribute name="I-RIPPLE" value="230mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060443003 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055330M025DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="33  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+<attribute name="Z" value="0.44Ohm" constant="no"/>
+</technology>
+<technology name="_865060443004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060443004.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="11.75uA" constant="no"/>
+<attribute name="I-RIPPLE" value="230mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060443004 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055470M025DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="47  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+<attribute name="Z" value="0.44Ohm" constant="no"/>
+</technology>
+<technology name="_865060543003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060543003.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="7.7uA" constant="no"/>
+<attribute name="I-RIPPLE" value="230mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060543003 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055220M035DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="22  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+<attribute name="Z" value="0.44Ohm" constant="no"/>
+</technology>
+<technology name="_865060543004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060543004.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="11.55uA" constant="no"/>
+<attribute name="I-RIPPLE" value="240mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060543004 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055330M035DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="33  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+<attribute name="Z" value="0.44Ohm" constant="no"/>
+</technology>
+<technology name="_865060543005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060543005.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="16.45uA" constant="no"/>
+<attribute name="I-RIPPLE" value="240mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060543005 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055470M035DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="47  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+<attribute name="Z" value="0.44Ohm" constant="no"/>
+</technology>
+<technology name="_865060643005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060643005.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="165mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060643005 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055100M050DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="1.4Ohm" constant="no"/>
+</technology>
+<technology name="_865060643006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060643006.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="11uA" constant="no"/>
+<attribute name="I-RIPPLE" value="165mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060643006 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055220M050DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="22  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="1.2Ohm" constant="no"/>
+</technology>
+<technology name="_865060743002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060743002.pdf" constant="no"/>
+<attribute name="DF" value="10%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="6.3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="80mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060743002 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED055100M063DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="63V(DC)" constant="no"/>
+<attribute name="Z" value="1.5Ohm" constant="no"/>
+</technology>
+<technology name="_865060845002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060845002.pdf" constant="no"/>
+<attribute name="DF" value="8%" constant="no"/>
+<attribute name="DIAMETER" value="6.3mm" constant="no"/>
+<attribute name="I-LEAK" value="10uA" constant="no"/>
+<attribute name="I-RIPPLE" value="65mA" constant="no"/>
+<attribute name="L" value="7.7mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060845002 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASED077100M100DVCTCB000" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+<attribute name="Z" value="3.9Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-ASLL_4X5.5" prefix="C">
+<description>&lt;b&gt;WCAP-ASLL Aluminium Electrolytic Capacitors  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Low Impedance &amp; Long Life +105 °C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low impedance and long life product series 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 1 µF ‒ 6800 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 450 V(DC) 
+&lt;BR&gt;Operating temperature: 
+&lt;BR&gt;-55 °C up to +105 °C for UR ≤ 100 V(DC) 
+&lt;BR&gt;-40 °C up to +105 °C for UR &gt; 100 V(DC) 
+&lt;BR&gt;Endurance: 2000 ‒ 5000 h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 16.0 x 17.0 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Long life application &amp; low impedance 
+&lt;BR&gt;Input and output capacitor for switched-mode power supply 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;e.g. DC/DC converter, AC/DC converter, satellite receiver, control panel 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLL/"&gt;https://www.we-online.com/catalog/en/WCAP-ASLL/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-03
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-ASLL_4X5.5(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18354037/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_865060140001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060140001.pdf" constant="no"/>
+<attribute name="DF" value="22%" constant="no"/>
+<attribute name="DIAMETER" value="4mm" constant="no"/>
+<attribute name="I-LEAK" value="3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="80mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060140001 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEB055220M6R3DVCTAB000" constant="no"/>
+<attribute name="VALUE" value="22  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+<attribute name="Z" value="1.5Ohm" constant="no"/>
+</technology>
+<technology name="_865060140002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060140002.pdf" constant="no"/>
+<attribute name="DF" value="22%" constant="no"/>
+<attribute name="DIAMETER" value="4mm" constant="no"/>
+<attribute name="I-LEAK" value="3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="85mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060140002 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEB055330M6R3DVCTAB000" constant="no"/>
+<attribute name="VALUE" value="33  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+<attribute name="Z" value="1.35Ohm" constant="no"/>
+</technology>
+<technology name="_865060240001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060240001.pdf" constant="no"/>
+<attribute name="DF" value="19%" constant="no"/>
+<attribute name="DIAMETER" value="4mm" constant="no"/>
+<attribute name="I-LEAK" value="3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="90mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060240001 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEB055220M010DVCTAB000" constant="no"/>
+<attribute name="VALUE" value="22  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+<attribute name="Z" value="1.35Ohm" constant="no"/>
+</technology>
+<technology name="_865060340001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060340001.pdf" constant="no"/>
+<attribute name="DF" value="16%" constant="no"/>
+<attribute name="DIAMETER" value="4mm" constant="no"/>
+<attribute name="I-LEAK" value="3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="90mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060340001 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEB055100M016DVCTAB000" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+<attribute name="Z" value="1.35Ohm" constant="no"/>
+</technology>
+<technology name="_865060440001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060440001.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="4mm" constant="no"/>
+<attribute name="I-LEAK" value="3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="90mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060440001 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEB055100M025DVCTAB000" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+<attribute name="Z" value="1.35Ohm" constant="no"/>
+</technology>
+<technology name="_865060540001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060540001.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="4mm" constant="no"/>
+<attribute name="I-LEAK" value="3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="90mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060540001 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEB0554R7M035DVCTAB000" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+<attribute name="Z" value="1.9Ohm" constant="no"/>
+</technology>
+<technology name="_865060640001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060640001.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="4mm" constant="no"/>
+<attribute name="I-LEAK" value="3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="60mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060640001 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEB055010M050DVCTAB000" constant="no"/>
+<attribute name="VALUE" value="1  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="4.4Ohm" constant="no"/>
+</technology>
+<technology name="_865060640002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060640002.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="4mm" constant="no"/>
+<attribute name="I-LEAK" value="3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="60mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060640002 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEB0552R2M050DVCTAB000" constant="no"/>
+<attribute name="VALUE" value="2.2  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="3.9Ohm" constant="no"/>
+</technology>
+<technology name="_865060640003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060640003.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="4mm" constant="no"/>
+<attribute name="I-LEAK" value="3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="60mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060640003 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEB0553R3M050DVCTAB000" constant="no"/>
+<attribute name="VALUE" value="3.3  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="3.9Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-ASLL_5X5.5" prefix="C">
+<description>&lt;b&gt;WCAP-ASLL Aluminium Electrolytic Capacitors  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Low Impedance &amp; Long Life +105 °C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low impedance and long life product series 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 1 µF ‒ 6800 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 450 V(DC) 
+&lt;BR&gt;Operating temperature: 
+&lt;BR&gt;-55 °C up to +105 °C for UR ≤ 100 V(DC) 
+&lt;BR&gt;-40 °C up to +105 °C for UR &gt; 100 V(DC) 
+&lt;BR&gt;Endurance: 2000 ‒ 5000 h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 16.0 x 17.0 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Long life application &amp; low impedance 
+&lt;BR&gt;Input and output capacitor for switched-mode power supply 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;e.g. DC/DC converter, AC/DC converter, satellite receiver, control panel 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLL/"&gt;https://www.we-online.com/catalog/en/WCAP-ASLL/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-03
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-ASLL_5X5.5(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18354036/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_865060142003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060142003.pdf" constant="no"/>
+<attribute name="DF" value="22%" constant="no"/>
+<attribute name="DIAMETER" value="5mm" constant="no"/>
+<attribute name="I-LEAK" value="3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="160mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060142003 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEC055470M6R3DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="47  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+<attribute name="Z" value="0.8Ohm" constant="no"/>
+</technology>
+<technology name="_865060242002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060242002.pdf" constant="no"/>
+<attribute name="DF" value="19%" constant="no"/>
+<attribute name="DIAMETER" value="5mm" constant="no"/>
+<attribute name="I-LEAK" value="3.3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="160mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060242002 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEC055330M010DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="33  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+<attribute name="Z" value="0.8Ohm" constant="no"/>
+</technology>
+<technology name="_865060342002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060342002.pdf" constant="no"/>
+<attribute name="DF" value="16%" constant="no"/>
+<attribute name="DIAMETER" value="5mm" constant="no"/>
+<attribute name="I-LEAK" value="3.52uA" constant="no"/>
+<attribute name="I-RIPPLE" value="150mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060342002 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEC055220M016DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="22  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+<attribute name="Z" value="0.8Ohm" constant="no"/>
+</technology>
+<technology name="_865060442002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060442002.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="5mm" constant="no"/>
+<attribute name="I-LEAK" value="5.5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="150mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060442002 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEC055220M025DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="22  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+<attribute name="Z" value="0.8Ohm" constant="no"/>
+</technology>
+<technology name="_865060542002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060542002.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="5mm" constant="no"/>
+<attribute name="I-LEAK" value="3.5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="150mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060542002 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEC055100M035DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+<attribute name="Z" value="0.8Ohm" constant="no"/>
+</technology>
+<technology name="_865060642004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060642004.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="5mm" constant="no"/>
+<attribute name="I-LEAK" value="3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="85mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060642004 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEC0554R7M050DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="1.52Ohm" constant="no"/>
+</technology>
+<technology name="_865060742001">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060742001.pdf" constant="no"/>
+<attribute name="DF" value="10%" constant="no"/>
+<attribute name="DIAMETER" value="5mm" constant="no"/>
+<attribute name="I-LEAK" value="3uA" constant="no"/>
+<attribute name="I-RIPPLE" value="50mA" constant="no"/>
+<attribute name="L" value="5.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060742001 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEC0554R7M063DVCTBB000" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="63V(DC)" constant="no"/>
+<attribute name="Z" value="3Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-ASLL_8X10.5" prefix="C">
+<description>&lt;b&gt;WCAP-ASLL Aluminium Electrolytic Capacitors  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Low Impedance &amp; Long Life +105 °C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low impedance and long life product series 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 1 µF ‒ 6800 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 450 V(DC) 
+&lt;BR&gt;Operating temperature: 
+&lt;BR&gt;-55 °C up to +105 °C for UR ≤ 100 V(DC) 
+&lt;BR&gt;-40 °C up to +105 °C for UR &gt; 100 V(DC) 
+&lt;BR&gt;Endurance: 2000 ‒ 5000 h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 16.0 x 17.0 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Long life application &amp; low impedance 
+&lt;BR&gt;Input and output capacitor for switched-mode power supply 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;e.g. DC/DC converter, AC/DC converter, satellite receiver, control panel 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLL/"&gt;https://www.we-online.com/catalog/en/WCAP-ASLL/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-03
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-ASLL_8X10.5(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18354033/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_865060153007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060153007.pdf" constant="no"/>
+<attribute name="DF" value="22%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="20.79uA" constant="no"/>
+<attribute name="I-RIPPLE" value="450mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060153007 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105331M6R3DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="330  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+<attribute name="Z" value="0.17Ohm" constant="no"/>
+</technology>
+<technology name="_865060153008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060153008.pdf" constant="no"/>
+<attribute name="DF" value="22%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="29.61uA" constant="no"/>
+<attribute name="I-RIPPLE" value="500mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060153008 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105471M6R3DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="470  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+<attribute name="Z" value="0.17Ohm" constant="no"/>
+</technology>
+<technology name="_865060153009">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060153009.pdf" constant="no"/>
+<attribute name="DF" value="22%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="42.84uA" constant="no"/>
+<attribute name="I-RIPPLE" value="550mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060153009 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105681M6R3DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="680  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+<attribute name="Z" value="0.17Ohm" constant="no"/>
+</technology>
+<technology name="_865060153010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060153010.pdf" constant="no"/>
+<attribute name="DF" value="22%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="63uA" constant="no"/>
+<attribute name="I-RIPPLE" value="550mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060153010 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105102M6R3DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="1000  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+<attribute name="Z" value="0.17Ohm" constant="no"/>
+</technology>
+<technology name="_865060253007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060253007.pdf" constant="no"/>
+<attribute name="DF" value="19%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="33uA" constant="no"/>
+<attribute name="I-RIPPLE" value="500mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060253007 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105331M010DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="330  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+<attribute name="Z" value="0.17Ohm" constant="no"/>
+</technology>
+<technology name="_865060253008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060253008.pdf" constant="no"/>
+<attribute name="DF" value="19%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="47uA" constant="no"/>
+<attribute name="I-RIPPLE" value="550mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060253008 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105471M010DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="470  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+<attribute name="Z" value="0.17Ohm" constant="no"/>
+</technology>
+<technology name="_865060353008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060353008.pdf" constant="no"/>
+<attribute name="DF" value="16%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="52.8uA" constant="no"/>
+<attribute name="I-RIPPLE" value="550mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060353008 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105331M016DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="330  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+<attribute name="Z" value="0.17Ohm" constant="no"/>
+</technology>
+<technology name="_865060353009">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060353009.pdf" constant="no"/>
+<attribute name="DF" value="16%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="75.2uA" constant="no"/>
+<attribute name="I-RIPPLE" value="600mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060353009 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105471M016DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="470  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+<attribute name="Z" value="0.17Ohm" constant="no"/>
+</technology>
+<technology name="_865060453006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060453006.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="37.5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="500mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060453006 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105151M025DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="150  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+<attribute name="Z" value="0.17Ohm" constant="no"/>
+</technology>
+<technology name="_865060453007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060453007.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="55uA" constant="no"/>
+<attribute name="I-RIPPLE" value="550mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060453007 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105221M025DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="220  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+<attribute name="Z" value="0.17Ohm" constant="no"/>
+</technology>
+<technology name="_865060453008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060453008.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="82.5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="600mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060453008 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105331M025DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="330  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+<attribute name="Z" value="0.17Ohm" constant="no"/>
+</technology>
+<technology name="_865060553006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060553006.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="35uA" constant="no"/>
+<attribute name="I-RIPPLE" value="450mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060553006 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105101M035DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="100  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+<attribute name="Z" value="0.17Ohm" constant="no"/>
+</technology>
+<technology name="_865060553007">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060553007.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="52.5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="550mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060553007 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105151M035DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="150  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+<attribute name="Z" value="0.17Ohm" constant="no"/>
+</technology>
+<technology name="_865060653009">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060653009.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="34uA" constant="no"/>
+<attribute name="I-RIPPLE" value="300mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060653009 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105680M050DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="68  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="0.34Ohm" constant="no"/>
+</technology>
+<technology name="_865060653010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060653010.pdf" constant="no"/>
+<attribute name="DF" value="12%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="50uA" constant="no"/>
+<attribute name="I-RIPPLE" value="350mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060653010 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105101M050DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="100  µF " constant="no"/>
+<attribute name="VR" value="50V(DC)" constant="no"/>
+<attribute name="Z" value="0.34Ohm" constant="no"/>
+</technology>
+<technology name="_865060753004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060753004.pdf" constant="no"/>
+<attribute name="DF" value="10%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="20.79uA" constant="no"/>
+<attribute name="I-RIPPLE" value="250mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060753004 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105330M063DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="33  µF " constant="no"/>
+<attribute name="VR" value="63V(DC)" constant="no"/>
+<attribute name="Z" value="0.7Ohm" constant="no"/>
+</technology>
+<technology name="_865060753005">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060753005.pdf" constant="no"/>
+<attribute name="DF" value="10%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="29.61uA" constant="no"/>
+<attribute name="I-RIPPLE" value="280mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060753005 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105470M063DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="47  µF " constant="no"/>
+<attribute name="VR" value="63V(DC)" constant="no"/>
+<attribute name="Z" value="0.65Ohm" constant="no"/>
+</technology>
+<technology name="_865060853003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060853003.pdf" constant="no"/>
+<attribute name="DF" value="8%" constant="no"/>
+<attribute name="DIAMETER" value="8mm" constant="no"/>
+<attribute name="I-LEAK" value="22uA" constant="no"/>
+<attribute name="I-RIPPLE" value="130mA" constant="no"/>
+<attribute name="L" value="10.5mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060853003 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEE105220M100DVCTEE000" constant="no"/>
+<attribute name="VALUE" value="22  µF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+<attribute name="Z" value="1.9Ohm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-ASLL_12.5X14" prefix="C">
+<description>&lt;b&gt;WCAP-ASLL Aluminium Electrolytic Capacitors  &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+
+&lt;B&gt;Low Impedance &amp; Long Life +105 °C &lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;B&gt;Characteristics&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Low impedance and long life product series 
+&lt;BR&gt;Mounting style: V-Chip SMT 
+&lt;BR&gt;Capacitance range: 1 µF ‒ 6800 µF 
+&lt;BR&gt;Capacitance tolerance: ±20 % 
+&lt;BR&gt;Voltage range (UR): 6.3 ‒ 450 V(DC) 
+&lt;BR&gt;Operating temperature: 
+&lt;BR&gt;-55 °C up to +105 °C for UR ≤ 100 V(DC) 
+&lt;BR&gt;-40 °C up to +105 °C for UR &gt; 100 V(DC) 
+&lt;BR&gt;Endurance: 2000 ‒ 5000 h @ +105 °C 
+&lt;BR&gt;Dimensions (DxL) in mm: 4.0 x 5.5 up to 16.0 x 17.0 
+&lt;BR&gt;Recommended soldering: Reflow soldering 
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;B&gt;Applications&lt;/B&gt;&lt;BR&gt;
+&lt;BR&gt;Long life application &amp; low impedance 
+&lt;BR&gt;Input and output capacitor for switched-mode power supply 
+&lt;BR&gt;Filtering 
+&lt;BR&gt;Smoothing 
+&lt;BR&gt;e.g. DC/DC converter, AC/DC converter, satellite receiver, control panel 
+&lt;BR&gt;
+&lt;BR&gt;&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o14724v209%20Family_WCAP-ASLL.jpg"  width="320"&gt;&lt;/a&gt;&lt;p&gt;
+
+&lt;/b&gt;&lt;br&gt;            
+Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLL/"&gt;https://www.we-online.com/catalog/en/WCAP-ASLL/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;Updated by yingchun,Shan;2020-03-03
+&lt;br&gt;2020(C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WCAP-ASLL_12.5X14(DXL)">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18354031/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_865060162012">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060162012.pdf" constant="no"/>
+<attribute name="DF" value="22%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="207.9uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1150mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060162012 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140332M6R3DVCTGE000" constant="no"/>
+<attribute name="VALUE" value="3300  µF " constant="no"/>
+<attribute name="VR" value="6.3V(DC)" constant="no"/>
+<attribute name="Z" value="0.066Ohm" constant="no"/>
+</technology>
+<technology name="_865060262011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060262011.pdf" constant="no"/>
+<attribute name="DF" value="19%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="220uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1150mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060262011 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140222M010DVCTGE000" constant="no"/>
+<attribute name="VALUE" value="2200  µF " constant="no"/>
+<attribute name="VR" value="10V(DC)" constant="no"/>
+<attribute name="Z" value="0.066Ohm" constant="no"/>
+</technology>
+<technology name="_865060362011">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060362011.pdf" constant="no"/>
+<attribute name="DF" value="16%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="240uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1150mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060362011 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140152M016DVCTGE000" constant="no"/>
+<attribute name="VALUE" value="1500  µF " constant="no"/>
+<attribute name="VR" value="16V(DC)" constant="no"/>
+<attribute name="Z" value="0.066Ohm" constant="no"/>
+</technology>
+<technology name="_865060462010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060462010.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="250uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1150mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060462010 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140102M025DVCTGE000" constant="no"/>
+<attribute name="VALUE" value="1000  µF " constant="no"/>
+<attribute name="VR" value="25V(DC)" constant="no"/>
+<attribute name="Z" value="0.066Ohm" constant="no"/>
+</technology>
+<technology name="_865060562009">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060562009.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="164.5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1150mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060562009 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140471M035DVCTGE000" constant="no"/>
+<attribute name="VALUE" value="470  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+<attribute name="Z" value="0.066Ohm" constant="no"/>
+</technology>
+<technology name="_865060562010">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060562010.pdf" constant="no"/>
+<attribute name="DF" value="14%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="238uA" constant="no"/>
+<attribute name="I-RIPPLE" value="1150mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060562010 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140681M035DVCTGE000" constant="no"/>
+<attribute name="VALUE" value="680  µF " constant="no"/>
+<attribute name="VR" value="35V(DC)" constant="no"/>
+<attribute name="Z" value="0.066Ohm" constant="no"/>
+</technology>
+<technology name="_865060762008">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060762008.pdf" constant="no"/>
+<attribute name="DF" value="10%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="94.5uA" constant="no"/>
+<attribute name="I-RIPPLE" value="800mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060762008 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140151M063DVCTGE000" constant="no"/>
+<attribute name="VALUE" value="150  µF " constant="no"/>
+<attribute name="VR" value="63V(DC)" constant="no"/>
+<attribute name="Z" value="0.18Ohm" constant="no"/>
+</technology>
+<technology name="_865060762009">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060762009.pdf" constant="no"/>
+<attribute name="DF" value="10%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="138.6uA" constant="no"/>
+<attribute name="I-RIPPLE" value="830mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060762009 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140221M063DVCTGE000" constant="no"/>
+<attribute name="VALUE" value="220  µF " constant="no"/>
+<attribute name="VR" value="63V(DC)" constant="no"/>
+<attribute name="Z" value="0.16Ohm" constant="no"/>
+</technology>
+<technology name="_865060862006">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865060862006.pdf" constant="no"/>
+<attribute name="DF" value="8%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="68uA" constant="no"/>
+<attribute name="I-RIPPLE" value="600mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-55 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865060862006 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASEH140680M100DVCTGE000" constant="no"/>
+<attribute name="VALUE" value="68  µF " constant="no"/>
+<attribute name="VR" value="100V(DC)" constant="no"/>
+<attribute name="Z" value="0.7Ohm" constant="no"/>
+</technology>
+<technology name="_865061462002">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865061462002.pdf" constant="no"/>
+<attribute name="DF" value="20%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="121.15uA" constant="no"/>
+<attribute name="I-RIPPLE" value="50mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865061462002 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASDH1404R7M450DVCTGE000" constant="no"/>
+<attribute name="VALUE" value="4.7  µF " constant="no"/>
+<attribute name="VR" value="450V(DC)" constant="no"/>
+<attribute name="Z" value="" constant="no"/>
+</technology>
+<technology name="_865061462003">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865061462003.pdf" constant="no"/>
+<attribute name="DF" value="20%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="130.6uA" constant="no"/>
+<attribute name="I-RIPPLE" value="60mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865061462003 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASDH1406R8M450DVCTGE000" constant="no"/>
+<attribute name="VALUE" value="6.8  µF " constant="no"/>
+<attribute name="VR" value="450V(DC)" constant="no"/>
+<attribute name="Z" value="" constant="no"/>
+</technology>
+<technology name="_865061462004">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/catalog/datasheet/865061462004.pdf" constant="no"/>
+<attribute name="DF" value="20%" constant="no"/>
+<attribute name="DIAMETER" value="12.5mm" constant="no"/>
+<attribute name="I-LEAK" value="145uA" constant="no"/>
+<attribute name="I-RIPPLE" value="70mA" constant="no"/>
+<attribute name="L" value="14mm" constant="no"/>
+<attribute name="OPERATING-TEMPERATURE" value="-40 °C up to +105 °C" constant="no"/>
+<attribute name="PART-NUMBER" value=" 865061462004 " constant="no"/>
+<attribute name="TECHNICAL-REFERENCE" value="ASDH140100M450DVCTGE000" constant="no"/>
+<attribute name="VALUE" value="10  µF " constant="no"/>
+<attribute name="VR" value="450V(DC)" constant="no"/>
+<attribute name="Z" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
