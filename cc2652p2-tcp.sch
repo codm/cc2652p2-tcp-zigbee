@@ -9863,8 +9863,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WCAP-ASLL/"&gt;htt
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="LED1" library="Eagle_WL-SMCW (rev22a)" deviceset="WL-SMCW_0805" device="" package3d_urn="urn:adsk.eagle:package:19028167/3" technology="_150080GS75000" value="150080GS75000"/>
 <part name="LED2" library="Eagle_WL-SMCW (rev22a)" deviceset="WL-SMCW_0805" device="" package3d_urn="urn:adsk.eagle:package:19028167/3" technology="_150080RS75000" value="150080RS75000"/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k7"/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k7"/>
 <part name="USR-RST" library="434153017835_Eagle_WS-TASV_rev20a" deviceset="434153017835" device="" package3d_urn="urn:adsk.eagle:package:18304352/2"/>
 </parts>
 <sheets>
