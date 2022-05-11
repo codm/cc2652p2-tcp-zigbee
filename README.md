@@ -31,6 +31,20 @@ serial:
   port: 'tcp://<ip-of-cc2652p-tcp>:20108'
 ```
 
+### ZHA integration in Home Assistant
+
+From the Home Assistant front page go to Configuration and then select Integrations from the list. Use the plus button in the bottom right to add a new integration called ZHA to install the [ZHA (Zigbee Home Automation) integration](https://www.home-assistant.io/integrations/zha/).
+
+In the popup:
+
+* Serial Device Path - List of detected serial ports locally on the system (you will not use one of those). 
+* Press Submit and the integration will try to detect radio type automatically. If unsuccessful, you will get a new pop-up asking for a radio type. In the pop-up:
+* Select `znp` as Radio Type (which is for all Texas Instruments Zigbee based radions, including CC26x2 and CC13x2)
+* Press `Submit` to save radio type and you will get a new form asking for port settings specific for this radio type. In the pop-up:
+  * Serial device path - Manually enter `socket://ip-of-cc2652p-tcp:20108`
+  * port speed (baud rate not applicable for all radios) - Enter `115200`
+  * data flow control (not applicable for all radios) - Enter `sw` (for software flow control)
+
 ### USR-K6
 If you factory reset the USR-K6 you'll need to configure the serial bridge again (see image). It act's as a TCP-Server on the given port.
 
