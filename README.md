@@ -39,7 +39,7 @@ The default IP of the USR-K6 is `192.168.0.7` and username/password for the webi
 ![USR-K6 configuration](img/codm-cc2652p-tcp-zigbeecoordinator-usr-webinterface.png)
 
 ## Update
-To update the CC2652P2 module on the PCB you'll need an USB-UART adapter with the common FTDI pinout. Make sure it is 3.3V adaptro as 5V _will_ damage the module.
+To update the CC2652P2 module on the PCB you'll need an USB-UART adapter with the common FTDI pinout. Make sure it is 3.3V adaptor as 5V _will_ damage the module.
 
 Plug it on the corresponding header on the PCB and bring the CC2652P2 in bootloader mode by holding FLASH, pressing RESET and then release FLASH.
 Afterwards it is the same as "any normal" serial connected zigbee module. See https://github.com/codm/cc2652-raspberry-pi-module#serial-via-gpio
@@ -55,5 +55,10 @@ Flashing via JTAG is also possible through the corresponding header.
 
 # License
 [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 
 cod.m GmbH, Patrik Mayer, 2022
