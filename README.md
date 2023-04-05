@@ -39,10 +39,13 @@ The default IP of the USR-K6 is `192.168.0.7` and username/password for the webi
 ![USR-K6 configuration](img/codm-cc2652p-tcp-zigbeecoordinator-usr-webinterface.png)
 
 ## Update
-To update the CC2652P2 module on the PCB you'll need an USB-UART adapter with the common FTDI pinout. Make sure it is 3.3V adaptor as 5V _will_ damage the module.
+You can update the Z-Stack firmware on the CC2652P2 module via network using [ZigStar's stunning ZigStar MultiTool](https://zig-star.com/radio-docs/zigstar-multi-tool/).
 
-Plug it on the corresponding header on the PCB and bring the CC2652P2 in bootloader mode by holding FLASH, pressing RESET and then release FLASH.
-Afterwards it is the same as "any normal" serial connected zigbee module. See https://github.com/codm/cc2652-raspberry-pi-module#serial-via-gpio
+Find the Z-Stack Firmware in [Koenkks Z-Stack Firmware Repository](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin) and check the table for which file use for the __cod.m ZigBee CC2652P2 TCP Coordinator__. Usually this is `CC1352P2_CC2652P_launchpad_*.zip`.
+
+Open up the case and bring the CC2652P2 in bootloader mode by holding FLASH, pressing RESET and then release FLASH. After that choose the settings in the MultiTool according to the screenshot and of course use the IP of _your_ CC2652P TCP Coordinator:
+
+![ZigStar MultTool Configuration for cod.m CC2652P2 ZigBee Coordinator](img/codm-cc265p2-tcp-zigstargw-update.png)
 
 After that powercycle the module and use again.
 
@@ -51,7 +54,7 @@ Flashing via JTAG is also possible through the corresponding header.
 # Thanks
 * @klein0r Inital Idea - https://haus-automatisierung.com/
 * @koenkk Z-Stack Firmware - https://github.com/Koenkk/Z-Stack-firmware
-
+* @xyzroe ZigStar MultiTool - https://github.com/xyzroe/ZigStarGW-MT
 
 # License
 [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
