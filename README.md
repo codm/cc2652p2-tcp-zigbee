@@ -41,7 +41,7 @@ The default IP of the USR-K6 is `192.168.0.7` and username/password for the webi
 ## Update
 You can update the Z-Stack firmware on the CC2652P2 module via network using [ZigStar's stunning ZigStar MultiTool](https://zig-star.com/radio-docs/zigstar-multi-tool/).
 
-Find the Z-Stack Firmware in [Koenkks Z-Stack Firmware Repository](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin) and check the table for which file use for the __cod.m ZigBee CC2652P2 TCP Coordinator__. Usually this is `CC1352P2_CC2652P_launchpad_*.zip`.
+Find the Z-Stack Firmware in [Koenkks Z-Stack Firmware Repository]([https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin](https://github.com/Koenkk/Z-Stack-firmware/releases)) and check the table for which file use for the __cod.m ZigBee CC2652P2 TCP Coordinator__. Usually this is `CC1352P2_CC2652P_launchpad_*.zip`.
 
 Open up the case and bring the CC2652P2 in bootloader mode by holding FLASH, pressing RESET and then release FLASH. After that choose the settings in the MultiTool according to the screenshot and of course use the IP of _your_ CC2652P TCP Coordinator:
 
